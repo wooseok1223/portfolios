@@ -19,10 +19,9 @@ export default function GroupSizesColors() {
 
     return (
         <div>
-            <Button color="inherit">About</Button>
-            <Button color="inherit">Skill</Button>
-            <Button color="inherit">Project</Button>
-            <Button color="inherit">Contact</Button>
+            <Button style={{color:'#000099'}}>About</Button>
+            <Button style={{color:'#000099'}}>Skill</Button>
+            <Button style={{color:'#000099'}}>Project</Button>
         </div>
     );
 }

@@ -4,8 +4,10 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
 import Button from '../function/Button'
+import Image1 from '../Img/profile.JPG'
+import Avatar from '@material-ui/core/Avatar';
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -23,12 +25,10 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" style={{ background: '#CCFFFF' }}>
         <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" className={classes.title}>
+          <Avatar alt="Remy Sharp" src={Image1} className={classes.large} />
+          <Typography variant="h6" className={classes.title} style={{marginLeft:"15px", color:'#000099'}}>
             WooSeok's PortFolios
           </Typography>
           <Button/>
