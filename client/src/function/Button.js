@@ -21,13 +21,13 @@ export default function GroupSizesColors() {
     return (
         <div>
             <Button style={{color: '#000099'}}>
-                <Link to="/portfolios/about" style={{textDecoration:"none", color: '#000099'}}>Home</Link>
+                <Link to="/about" style={{textDecoration:"none", color: '#000099'}}>Home</Link>
             </Button>
             <Button style={{color: '#000099'}}>
-                <Link to="/portfolios/skill" style={{textDecoration:"none", color: '#000099'}}>Skill</Link>
+                <Link to="/skill" style={{textDecoration:"none", color: '#000099'}}>Skill</Link>
             </Button>
             <Button style={{color: '#000099'}}>
-                <Link to="/portfolios/Project" style={{textDecoration:"none", color: '#000099'}}>Project</Link>
+                <Link to="/Project" style={{textDecoration:"none", color: '#000099'}}>Project</Link>
             </Button>
         </div>
     );

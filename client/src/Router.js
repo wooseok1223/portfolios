@@ -7,13 +7,13 @@ import Header from '../src/contents/Header'
 import Footer from '../src/contents/Footer'
 
 const Router = () => (
-    <BrowserRouter basename={'http://wooseok1223.github.io/portfolios'}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header/>
         <Switch>
-            <Route exact path="/portfolios" component={MainPage}/>
-            <Route path="/portfolios/about" component={MainPage}/>
-            <Route path='/portfolios/skill' component={SkillPage}/>
-            <Route path='/portfolios/project' component={ProjectPage}/>
+            <Route exact path="/" component={MainPage}/>
+            <Route path="/about" component={MainPage}/>
+            <Route path='/skill' component={SkillPage}/>
+            <Route path='/project' component={ProjectPage}/>
         </Switch>
         <Footer/>
     </BrowserRouter>
