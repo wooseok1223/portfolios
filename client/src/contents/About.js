@@ -26,8 +26,8 @@ export default function Album() {
     const classes = useStyles();
     const [MoreView, setMoreMiew] = React.useState(false);
 
-    const callbackFunction = (MoreView) => {
-        setMoreMiew(MoreView);
+    const callbackFunction = () => {
+        setMoreMiew(!MoreView);
     }
 
     const addComponent = (

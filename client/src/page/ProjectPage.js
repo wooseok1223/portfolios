@@ -1,17 +1,17 @@
 import React from 'react'
 import Header from '../contents/Header'
-import About from '../contents/About'
+import Project from '../contents/Project'
 import Footer from '../contents/Footer'
 import {makeStyles} from '@material-ui/core/styles';
 
-function MainPage() {
+function SkillPage() {
 
     return (
         <div>
-            <About/>
+            <Project/>
         </div>
     );
 }
 
 
-export default MainPage;
+export default SkillPage;

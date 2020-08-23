@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import MainPage from '../src/page/MainPage'
+import Router from '../src/Router'
 
 function App() {
     return (
-        <MainPage/>
+        <Router/>
     );
 }
+
 //
 // export class Home extends Component {
 //   render() {
@@ -25,7 +26,6 @@ function App() {
 //     )
 //   }
 // }
-
 
 
 export default App;

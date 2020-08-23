@@ -32,7 +32,7 @@ export default function SimpleCard({moreViewFlag, callbackFunction}) {
     const bull = <span className={classes.bullet}>•</span>;
 
     const onClick = (moreViewFlag) => {
-        callbackFunction(true)
+        callbackFunction()
     }
 
 
