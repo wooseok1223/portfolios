@@ -7,7 +7,7 @@ import Header from '../src/contents/Header'
 import Footer from '../src/contents/Footer'
 
 const Router = () => (
-    <BrowserRouter>
+    <BrowserRouter basename={'http://wooseok1223.github.io/portfolios'}>
         <Header/>
         <Switch>
             <Route exact path="/portfolios" component={MainPage}/>
