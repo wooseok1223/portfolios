@@ -21,7 +21,7 @@ export default function GroupSizesColors() {
     return (
         <div>
             <Button style={{color: '#000099'}}>
-                <Link to="/" style={{textDecoration:"none", color: '#000099'}}>Home</Link>
+                <Link to="/about" style={{textDecoration:"none", color: '#000099'}}>Home</Link>
             </Button>
             <Button style={{color: '#000099'}}>
                 <Link to="/skill" style={{textDecoration:"none", color: '#000099'}}>Skill</Link>
