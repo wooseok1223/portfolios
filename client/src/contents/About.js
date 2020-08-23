@@ -5,6 +5,7 @@ import {makeStyles} from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import ProfileList from '../function/Card'
+import MoreGrid from '../function/Grid'
 
 const useStyles = makeStyles((theme) => ({
     heroContent: {
@@ -20,9 +21,27 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
+
 export default function Album() {
     const classes = useStyles();
+    const [MoreView, setMoreMiew] = React.useState(false);
 
+    const callbackFunction = (MoreView) => {
+        setMoreMiew(MoreView);
+    }
+
+    const addComponent = (
+        <div>
+            <div className={classes.titleContent}>
+                <Typography variant="h5" align="center">
+                    career
+                </Typography>
+            </div>
+            <div className={classes.titleContent}>
+                <MoreGrid/>
+            </div>
+        </div>
+    )
 
     return (
         <React.Fragment>
@@ -36,9 +55,15 @@ export default function Album() {
                 <div className={classes.heroContent}>
                     <Container maxWidth="sm">
                         <div className={classes.cardDesign}>
-                            <ProfileList/>
+                            <ProfileList
+                                moreViewFlag={MoreView}
+                                callbackFunction={callbackFunction}
+                            />
                         </div>
                     </Container>
+                </div>
+                <div>
+                    {MoreView == true ? addComponent : ''}
                 </div>
             </main>
             {/* End footer */}

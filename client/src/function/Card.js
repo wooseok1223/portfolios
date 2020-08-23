@@ -26,14 +26,14 @@ const useStyles = makeStyles({
     },
 });
 
-const onClick = (event) => {
-    console.log('김남규 바보')
-};
 
-
-export default function SimpleCard() {
+export default function SimpleCard({moreViewFlag, callbackFunction}) {
     const classes = useStyles();
     const bull = <span className={classes.bullet}>•</span>;
+
+    const onClick = (moreViewFlag) => {
+        callbackFunction(true)
+    }
 
 
     return (
