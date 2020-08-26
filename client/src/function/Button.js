@@ -15,19 +15,32 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function GroupSizesColors() {
+export default function GroupSizesColors({contentsValueChange}) {
     const classes = useStyles();
+
+    const contentsChange = (clickValue) => {
+        contentsValueChange(clickValue)
+    }
 
     return (
         <div>
-            <Button style={{color: '#000099'}}>
-                <Link to="/about" style={{textDecoration:"none", color: '#000099'}}>Home</Link>
+            <Button
+                style={{color:'#000099'}}
+                onClick={() => {contentsChange(0)}}
+            >
+                About
             </Button>
-            <Button style={{color: '#000099'}}>
-                <Link to="/skill" style={{textDecoration:"none", color: '#000099'}}>Skill</Link>
+            <Button
+                style={{color:'#000099'}}
+                onClick={() => {contentsChange(1)}}
+            >
+                Skill
             </Button>
-            <Button style={{color: '#000099'}}>
-                <Link to="/Project" style={{textDecoration:"none", color: '#000099'}}>Project</Link>
+            <Button
+                style={{color:'#000099'}}
+                onClick={() => {contentsChange(2)}}
+            >
+                Project
             </Button>
         </div>
     );
