@@ -28,8 +28,8 @@ export default function ButtonAppBar(props) {
     }
 
     return (
-        <div className={classes.root}>
-            <AppBar position="static" style={{background: '#CCFFFF'}}>
+        <div className={classes.root} id="header">
+            <AppBar position="fixed" style={{background: '#CCFFFF'}}>
                 <Toolbar>
                     <Avatar alt="Remy Sharp" src={Image1} className={classes.large}/>
                     <Typography variant="h6" className={classes.title} style={{marginLeft: "15px", color: '#000099'}}>

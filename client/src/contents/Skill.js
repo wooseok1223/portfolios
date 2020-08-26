@@ -33,7 +33,7 @@ export default function Album() {
         <div>
             <main>
                 <div className={classes.titleContent}>
-                    <Typography variant="h5" align="center">
+                    <Typography variant="h5" align="center" id="skill">
                         Skill
                     </Typography>
                     <div className={classes.titleContent}>

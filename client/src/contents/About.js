@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
         background: '#CCFFCC'
     },
     titleContent: {
-        padding: theme.spacing(3, 0, 3),
+        padding: theme.spacing(10, 0, 3),
         background: '#CCFFCC'
     },
     cardDesign: {
@@ -74,7 +74,7 @@ export default function Album() {
             <CssBaseline/>
             <main>
                 <div className={classes.titleContent}>
-                    <Typography variant="h5" align="center">
+                    <Typography variant="h5" align="center" id="about">
                         ABOUT ME
                     </Typography>
                 </div>
