@@ -1,17 +1,27 @@
 import React from 'react'
-import Header from '../contents/Header'
-import About from '../contents/About'
-import Footer from '../contents/Footer'
+import Container from '@material-ui/core/Container';
+import Image from 'material-ui-image'
+import Img from '../Img/main.png'
 import {makeStyles} from '@material-ui/core/styles';
 
-function MainPage() {
+const useStyles = makeStyles((theme) => ({
+    rootArea: {
+        opacity: 0.7
+    }
+}));
+
+
+export default function AboutPage() {
+    const classes = useStyles();
 
     return (
-        <div>
-            <About/>
-        </div>
+        <Container maxWidth="xs" className={classes.rootArea}>
+            <Image
+                src={Img}
+                style={{backgroundColor: '#cfe8fc', height: '100vh'}}
+            />
+        </Container>
     );
 }
 
 
-export default MainPage;
