@@ -38,7 +38,7 @@ export default function App() {
                 contentsChangeValue={contentsSubmit}
                 className={classes.headerArea}
             />
-            <div className={classes.mainArea}>
+            <div style={{width:"100%",textAlign: "center"}}>
                 <MainPage/>
                 <AboutPage/>
                 <SkillPage/>

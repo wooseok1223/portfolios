@@ -5,8 +5,7 @@ import MoreGrid from '../function/Grid'
 
 const useStyles = makeStyles((theme) => ({
     titleContent: {
-        padding: theme.spacing(3, 0, 3),
-        background: '#CCFFCC'
+        padding: theme.spacing(3, 0, 3)
     }
 }));
 

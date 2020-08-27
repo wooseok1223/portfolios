@@ -5,9 +5,8 @@ import Footer from '../contents/Footer'
 import {makeStyles} from '@material-ui/core/styles';
 
 function SkillPage() {
-
     return (
-        <div>
+        <div style = {{display : "inline-block", background : "#F2F2E4", width:"1200px", height: "800px" ,textAlign: "left"}}>
             <Skill/>
         </div>
     );

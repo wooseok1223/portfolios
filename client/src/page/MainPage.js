@@ -15,13 +15,13 @@ export default function AboutPage() {
     const classes = useStyles();
 
     return (
-        <Container maxWidth="xs" className={classes.rootArea}>
+        <Container maxWidth="sm" className={classes.rootArea}>
             <Image
                 src={Img}
-                style={{backgroundColor: '#cfe8fc', height: '100vh'}}
-            />
+                style={{backgroundColor: '#cfe8fc', height: '100vh'}}>
+            </Image>
         </Container>
-    );
+);
 }
 
 

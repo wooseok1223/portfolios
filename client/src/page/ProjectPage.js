@@ -7,7 +7,7 @@ import {makeStyles} from '@material-ui/core/styles';
 function SkillPage() {
 
     return (
-        <div>
+        <div style = {{display : "inline-block", background : "#CDDAE4", width:"1200px",textAlign: "center"}}>
             <Project/>
         </div>
     );

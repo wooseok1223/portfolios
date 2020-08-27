@@ -8,15 +8,14 @@ import ProfileList from '../function/Card'
 import MoreGrid from '../function/Grid'
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
+import Acitivity from '../Img/activity.png'
 
 const useStyles = makeStyles((theme) => ({
     heroContent: {
         padding: theme.spacing(3, 0, 3),
-        background: '#CCFFCC'
     },
     titleContent: {
         padding: theme.spacing(10, 0, 3),
-        background: '#CCFFCC'
     },
     cardDesign: {
         height: ''
@@ -55,12 +54,12 @@ export default function Album() {
 
     const addComponent = (
         <div>
-            <div className={classes.titleContent}>
+            <div style={{padding:"3px 0px 3px"}}>
                 <Typography variant="h5" align="center">
                     career
                 </Typography>
             </div>
-            <div className={classes.titleContent}>
+            <div style={{padding:"3px 0px 30px"}}>
                 <MoreGrid
                     dataSet={dataSet}
                     mode={'Carrer'}
@@ -87,6 +86,9 @@ export default function Album() {
                             />
                         </div>
                     </Container>
+                </div>
+                <div>
+                    <img src={Acitivity}/>
                 </div>
                 <div>
                     {MoreView == true ? addComponent : ''}

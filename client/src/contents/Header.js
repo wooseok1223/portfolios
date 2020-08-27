@@ -10,7 +10,8 @@ import Avatar from '@material-ui/core/Avatar';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        flexGrow: 1
+        flexGrow: 1,
+        opacity: 0.9
     },
     menuButton: {
         marginRight: theme.spacing(2),
@@ -29,10 +30,10 @@ export default function ButtonAppBar(props) {
 
     return (
         <div className={classes.root} id="header">
-            <AppBar position="fixed" style={{background: '#CCFFFF'}}>
+            <AppBar position="fixed" style={{background: '#FFFFFF'}}>
                 <Toolbar>
                     <Avatar alt="Remy Sharp" src={Image1} className={classes.large}/>
-                    <Typography variant="h6" className={classes.title} style={{marginLeft: "15px", color: '#000099'}}>
+                    <Typography variant="h6" className={classes.title} style={{marginLeft: "15px", color: '#000000'}}>
                         WooSeok's PortFolios
                     </Typography>
                     <Button

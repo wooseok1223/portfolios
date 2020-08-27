@@ -1,14 +1,13 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
+import GitCard from '../../src/function/Gitcard'
+import Acitivity from '../Img/activity.png'
 
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 2,
-        background: '#CCFFCC'
     },
     paper: {
         padding: theme.spacing(2),
@@ -27,17 +26,29 @@ const useStyles = makeStyles((theme) => ({
     },
     titleContent: {
         padding: theme.spacing(3, 0, 3),
-        background: '#CCFFCC'
-    },
-    bottomContent: {
-        height: "100px",
-        background: '#CCFFCC'
     }
-    // mainBox : {
-    //     background: '#CCFFCC',
-    //     height : "500px"
-    // }
 }));
+
+const dataSet = [
+    {
+        img: Acitivity,
+        title: "Furniture_Recommend",
+        date: "시작일자 : 2018.08 ~ 2018.12",
+        contents: "설명 : 엑셀시트를 국세청에 맞게 xml 파일로 변환시켜주는 프로그램 개발"
+    },
+    {
+        img: Acitivity,
+        title: "Furniture_Recommend",
+        date: "시작일자 : 2018.08 ~ 2018.12",
+        contents: "설명 : 엑셀시트를 국세청에 맞게 xml 파일로 변환시켜주는 프로그램 개발"
+    },
+    {
+        img: Acitivity,
+        title: "Furniture_Recommend",
+        date: "시작일자 : 2018.08 ~ 2018.12",
+        contents: "설명 : 엑셀시트를 국세청에 맞게 xml 파일로 변환시켜주는 프로그램 개발"
+    }
+]
 
 
 export default function Album() {
@@ -51,33 +62,9 @@ export default function Album() {
                         Project
                     </Typography>
                 </div>
-                <div className={classes.root}>
-                    <Paper className={classes.paper}>
-                        <Grid container spacing={2}>
-                            <Grid item>
-                                <ButtonBase className={classes.image}>
-                                    <img className={classes.img} alt="complex" src="/static/images/grid/complex.jpg"/>
-                                </ButtonBase>
-                            </Grid>
-                            <Grid item xs={12} sm container>
-                                <Grid item xs container direction="column" spacing={2}>
-                                    <Grid item xs>
-                                        <Typography gutterBottom variant="subtitle1">
-                                            Standard license
-                                        </Typography>
-                                        <Typography variant="body2" gutterBottom>
-                                            Full resolution 1920x1080 • JPEG
-                                        </Typography>
-                                        <Typography variant="body2" color="textSecondary">
-                                            ID: 1030114
-                                        </Typography>
-                                    </Grid>
-                                </Grid>
-                            </Grid>
-                        </Grid>
-                    </Paper>
-                </div>
-                <div className={classes.bottomContent}/>
+                <GitCard
+                    dataSet={dataSet
+                    }/>
             </div>
         </main>
     );

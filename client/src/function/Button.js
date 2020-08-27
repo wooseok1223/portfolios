@@ -25,19 +25,19 @@ export default function GroupSizesColors({contentsValueChange}) {
     return (
         <div>
             <Button
-                style={{color:'#000099'}}
+                style={{color:'#000000'}}
                 onClick={() => {contentsChange(0)}}
             >
                 About
             </Button>
             <Button
-                style={{color:'#000099'}}
+                style={{color:'#000000'}}
                 onClick={() => {contentsChange(1)}}
             >
                 Skill
             </Button>
             <Button
-                style={{color:'#000099'}}
+                style={{color:'#000000'}}
                 onClick={() => {contentsChange(2)}}
             >
                 Project
