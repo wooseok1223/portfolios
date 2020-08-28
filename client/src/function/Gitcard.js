@@ -15,15 +15,11 @@ const useStyles = makeStyles((theme) => ({
         margin: 'auto',
         maxWidth: 900,
     },
-    image: {
-        width: 300,
-        height: 300,
-    },
     img: {
         margin: 'auto',
-        display: 'block',
+        display: 'inline-block',
         maxWidth: '100%',
-        maxHeight: '100%',
+        maxHeight: '100%'
     },
     bottomContent: {
         height: "100px"

@@ -9,21 +9,6 @@ const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 2,
     },
-    paper: {
-        padding: theme.spacing(2),
-        margin: 'auto',
-        maxWidth: 900,
-    },
-    image: {
-        width: 300,
-        height: 300,
-    },
-    img: {
-        margin: 'auto',
-        display: 'block',
-        maxWidth: '100%',
-        maxHeight: '100%',
-    },
     titleContent: {
         padding: theme.spacing(3, 0, 3),
     }

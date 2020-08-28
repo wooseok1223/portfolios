@@ -88,7 +88,7 @@ export default function Album() {
                     </Container>
                 </div>
                 <div>
-                    <img src={Acitivity}/>
+                    <img src={Acitivity} style={{textAlign : "center", width:"100%" }}/>
                 </div>
                 <div>
                     {MoreView == true ? addComponent : ''}

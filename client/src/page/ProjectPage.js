@@ -4,10 +4,20 @@ import Project from '../contents/Project'
 import Footer from '../contents/Footer'
 import {makeStyles} from '@material-ui/core/styles';
 
+const useStyles = makeStyles((theme) => ({
+    mainContents: {
+        display: "inline-block",
+        background: "#CDDAE4",
+        width: "80%",
+        textAlign: "left"
+    }
+}));
+
 function SkillPage() {
+    const classes = useStyles();
 
     return (
-        <div style = {{display : "inline-block", background : "#CDDAE4", width:"1200px",textAlign: "center"}}>
+        <div className={classes.mainContents}>
             <Project/>
         </div>
     );
