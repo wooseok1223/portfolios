@@ -5,6 +5,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Acitivity from '../Img/activity.png'
+import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -33,6 +34,10 @@ const useStyles = makeStyles((theme) => ({
 export default function Gitcard({dataSet}) {
     const classes = useStyles();
 
+    const linkMove = (src) => {
+        return window.open(src)
+    }
+
     return (
         <div className={classes.root}>
             {dataSet.map((value, i) => (
@@ -40,7 +45,7 @@ export default function Gitcard({dataSet}) {
                     <Paper className={classes.paper}>
                         <Grid container spacing={2}>
                             <Grid item>
-                                <ButtonBase className={classes.image}>
+                                <ButtonBase className={classes.image} onClick={() => {linkMove(value.link)}}>
                                     <img className={classes.img} alt="complex" src={value.img}/>
                                 </ButtonBase>
                             </Grid>

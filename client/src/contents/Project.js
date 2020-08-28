@@ -17,19 +17,22 @@ const useStyles = makeStyles((theme) => ({
 const dataSet = [
     {
         img: Acitivity,
+        link : 'https://github.com/snakim0813/Smart-Planer',
         title: "Smart Planner",
         date: "시작일자 : 2018.03 ~ 2018.06",
         contents: "설명 : 자바를 기반으로 (캡스톤)에서 만든 첫 협업 작품 자바를 기반으로 (캡스톤)에서 만든 첫 협업 작품"
     },
     {
         img: Acitivity,
-        title: "Furniture_Recommend",
+        link : 'https://github.com/wooseok1223/recommend-furniture',
+        title: "Recommend Furniture",
         date: "시작일자 : 2018.08 ~ 2018.12",
         contents: "설명 : 엑셀시트를 국세청에 맞게 xml 파일로 변환시켜주는 프로그램 개발"
     },
     {
         img: Acitivity,
-        title: "Furniture_Recommend",
+        link : 'https://github.com/wooseok1223/MyOwnMeeting',
+        title: "MyOwnMetting",
         date: "시작일자 : 2018.08 ~ 2018.12",
         contents: "설명 : 엑셀시트를 국세청에 맞게 xml 파일로 변환시켜주는 프로그램 개발"
     }
