@@ -11,8 +11,9 @@ import Avatar from '@material-ui/core/Avatar';
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
-        position : "fixed",
-        opacity: 0.9
+        position: "fixed",
+        opacity: 0.8,
+        zIndex: 1
     },
     title: {
         flexGrow: 1,
@@ -23,7 +24,7 @@ export default function ButtonAppBar(props) {
     const classes = useStyles();
 
     const contentsValueChange = (value) => {
-      props.contentsChangeValue(value);
+        props.contentsChangeValue(value);
     }
 
     return (

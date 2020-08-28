@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
         display: "inline-block",
         background: "#CDDAE4",
         width: "80%",
-        textAlign: "left"
+        textAlign: "center"
     }
 }));
 
