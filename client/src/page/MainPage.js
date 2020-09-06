@@ -41,7 +41,7 @@ export default function AboutPage() {
                 className={classes.mainImg}>
             </img>
             <div className={classes.textArea}>
-                <span> 안녕하세요 Develper 서우석입니다.</span>
+                <span> 안녕하세요 Developer 서우석입니다.</span>
             </div>
         </Container>
     );

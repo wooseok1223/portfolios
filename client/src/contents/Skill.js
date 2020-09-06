@@ -11,15 +11,15 @@ const useStyles = makeStyles((theme) => ({
 
 const dataSet = [
     {
-        title: "상",
-        name: ['python','Django','Flask']
+        title: "Hard Skill",
+        name: ['Python','Django','React','JavaScript','Git']
     },
     {
-        title: "중",
+        title: "Soft Skill",
         name: ['react','javascript']
     },
     {
-        title: "하",
+        title: "Progressing",
         name: ['C','C#']
     }
 ]

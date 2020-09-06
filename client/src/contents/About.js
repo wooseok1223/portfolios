@@ -15,10 +15,7 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(3, 0, 3),
     },
     titleContent: {
-        padding: theme.spacing(10, 0, 3),
-    },
-    cardDesign: {
-        height: ''
+        padding: theme.spacing(3, 0, 3),
     }
 }));
 
@@ -53,17 +50,20 @@ export default function Album() {
     ]
 
     const addComponent = (
-        <div>
-            <div style={{padding:"3px 0px 3px"}}>
+        <div style={{padding: "3px 0px 30px"}}>
+            <div style={{padding: "3px 0px 3px"}}>
                 <Typography variant="h5" align="center">
                     career
                 </Typography>
             </div>
-            <div style={{padding:"3px 0px 30px"}}>
+            <div style={{padding: "3px 0px 30px"}}>
                 <MoreGrid
                     dataSet={dataSet}
                     mode={'Carrer'}
                 />
+            </div>
+            <div style={{textAlign: "center", background : "#FEFEEF"}}>
+                <img src={Acitivity} style={{width: "50%"}}/>
             </div>
         </div>
     )
@@ -79,7 +79,7 @@ export default function Album() {
                 </div>
                 <div className={classes.heroContent}>
                     <Container maxWidth="sm">
-                        <div className={classes.cardDesign}>
+                        <div>
                             <ProfileList
                                 moreViewFlag={MoreView}
                                 callbackFunction={callbackFunction}
@@ -87,12 +87,7 @@ export default function Album() {
                         </div>
                     </Container>
                 </div>
-                <div>
-                    <img src={Acitivity} style={{textAlign : "center", width:"100%" }}/>
-                </div>
-                <div>
-                    {MoreView == true ? addComponent : ''}
-                </div>
+                {MoreView == true ? addComponent : ''}
             </main>
             {/* End footer */}
         </div>

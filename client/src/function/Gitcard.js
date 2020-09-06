@@ -55,10 +55,10 @@ export default function Gitcard({dataSet}) {
                                         <Typography gutterBottom variant="subtitle1">
                                             {value.title}
                                         </Typography>
-                                        <Typography variant="body2" gutterBottom>
+                                        <Typography variant="body2" gutterBottom style={{marginTop : "20px"}}>
                                             {value.date}
                                         </Typography>
-                                        <Typography variant="body2" color="textSecondary">
+                                        <Typography variant="body2" color="textSecondary" style={{marginTop : "50px"}}>
                                             {value.contents}
                                         </Typography>
                                     </Grid>
