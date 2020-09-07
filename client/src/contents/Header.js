@@ -17,7 +17,9 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         flexGrow: 1,
-    },
+        marginLeft: "15px",
+        color: '#000000'
+    }
 }));
 
 export default function ButtonAppBar(props) {
@@ -31,8 +33,8 @@ export default function ButtonAppBar(props) {
         <div className={classes.root} id="header">
             <AppBar style={{background: '#FFFFFF'}}>
                 <Toolbar>
-                    <Avatar alt="Remy Sharp" src={Image1}/>
-                    <Typography variant="h6" className={classes.title} style={{marginLeft: "15px", color: '#000000'}}>
+                    <Avatar alt="Remy Sharp" src={Image1} id="header" onClick={() => {props.contentsChangeValue(0)}}/>
+                    <Typography variant="h6" className={classes.title} id="header" onClick={() => {props.contentsChangeValue(0)}}>
                         WooSeok's PortFolios
                     </Typography>
                     <Button

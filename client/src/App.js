@@ -21,12 +21,16 @@ export default function App() {
         SetContentsValue(value);
 
         if (value === 0) {
+            let location = document.querySelector("#header").offsetTop;
+            window.scrollTo({top: location, behavior: 'smooth'});
+        }
+        else if (value === 1) {
             let location = document.querySelector("#about").offsetTop;
             window.scrollTo({top: location - 80, behavior: 'smooth'});
-        } else if (value === 1) {
+        } else if (value === 2) {
             let location = document.querySelector("#skill").offsetTop;
             window.scrollTo({top: location - 70, behavior: 'smooth'});
-        } else if (value === 2) {
+        } else if (value === 3) {
             let location = document.querySelector("#project").offsetTop;
             window.scrollTo({top: location - 70, behavior: 'smooth'});
         }
