@@ -16,11 +16,11 @@ const dataSet = [
     },
     {
         title: "Soft Skill",
-        name: ['react','javascript']
+        name: ['React','JavaScript']
     },
     {
         title: "Progressing",
-        name: ['C','C#']
+        name: ['C','Cplat']
     }
 ]
 

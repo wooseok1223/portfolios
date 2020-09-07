@@ -3,7 +3,6 @@ import {makeStyles} from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import GitCard from '../../src/function/Gitcard'
-import Acitivity from '../Img/activity.png'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -16,32 +15,32 @@ const useStyles = makeStyles((theme) => ({
 
 const dataSet = [
     {
-        img: Acitivity,
+        img: 'Pf',
         link : 'https://github.com/wooseok1223/portfolios',
         title: "Portfolios",
         date: "시작일자 : 2020.08 ~ 2018.09",
         contents: "설명 : React Hook을 이용해서 포트폴리오 개발"
     },
     {
-        img: Acitivity,
+        img:  'SmartPlanner',
         link : 'https://github.com/snakim0813/Smart-Planer',
         title: "Smart Planner",
         date: "시작일자 : 2018.03 ~ 2018.06",
         contents: "설명 : 자바를 기반으로 (캡스톤)에서 만든 첫 협업 작품 자바를 기반으로 (캡스톤)에서 만든 첫 협업 작품"
     },
     {
-        img: Acitivity,
+        img:  'Furniture',
         link : 'https://github.com/wooseok1223/recommend-furniture',
         title: "Recommend Furniture",
         date: "시작일자 : 2018.08 ~ 2018.12",
         contents: "설명 : yolo 이미지 디텍터를 활용한 이미지 이진 백터화, 색상 knn 분석 등 을 이용해 학습시킨 가구 추천 웹프로그램"
     },
     {
-        img: Acitivity,
+        img:  'MyOneMeeting',
         link : 'https://github.com/wooseok1223/MyOwnMeeting',
         title: "MyOwnMetting",
-        date: "시작일자 : 2018.08 ~ 2018.12",
-        contents: "설명 : 엑셀시트를 국세청에 맞게 xml 파일로 변환시켜주는 프로그램 개발"
+        date: "시작일자 : 2019.06 ~ 진행중",
+        contents: "설명 : 원하는 음식, 취향 별로 모임을 만들 수 있게 해주는 웹 프로그"
     }
 ]
 

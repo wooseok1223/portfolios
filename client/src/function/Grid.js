@@ -3,7 +3,6 @@ import {makeStyles} from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import Image1 from "../Img/profile.JPG";
 import Avatar from "@material-ui/core/Avatar";
 
 const useStyles = makeStyles((theme) => ({
@@ -21,13 +20,28 @@ const useStyles = makeStyles((theme) => ({
     control: {
         padding: theme.spacing(2),
     },
-    skillImage: {
+    skillDiv: {
+        display: "table",
+        height: "auto",
+        width: "80%",
+        paddingBotton: "20px"
+    },
+    skillFont: {
+        fontSize: "15px",
+        marginLeft: "20px",
+        display: "table-cell",
+        verticalAlign: 'middle',
+        paddingLeft: "10px"
+    },
+    skillImg: {
+        verticalAlign: "middle",
+        display: "table-cell"
     }
 }));
 
 export default function SpacingGrid({dataSet, mode}) {
     const classes = useStyles();
-
+    console.log(dataSet)
     return (
         <Grid container className={classes.root} spacing={2}>
             <Grid item xs={12}>
@@ -61,12 +75,11 @@ export default function SpacingGrid({dataSet, mode}) {
                                         </Typography>
                                     </div>
                                     {value.name.map((value2) => (
-                                        <div className={classes.skillImage}>
-                                            <div style={{clear: "left"}}>
-                                                <Avatar alt="Remy Sharp" src={Image1} style={{float: "left"}}/>
-                                            </div>
-                                            <Typography variant="h6" style={{fontSize: "15px", marginLeft: "20px"}}>
-                                                {value2}
+                                        <div className={classes.skillDiv}>
+                                            <Avatar alt="Remy Sharp" src={require(`../Img/${value2}_img.png`)}
+                                                    className={classes.skillImg}/>
+                                            <Typography variant="h6" className={classes.skillFont}>
+                                                {value2.includes('plat') ? value2.replace('plat', '') : value2}
                                             </Typography>
                                         </div>
                                     ))}

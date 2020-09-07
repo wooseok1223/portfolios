@@ -46,7 +46,7 @@ export default function Gitcard({dataSet}) {
                         <Grid container spacing={2}>
                             <Grid item>
                                 <ButtonBase className={classes.image} onClick={() => {linkMove(value.link)}}>
-                                    <img className={classes.img} alt="complex" src={value.img}/>
+                                    <img className={classes.img} alt="complex" src={require(`../Img/${value.img}.png`)}/>
                                 </ButtonBase>
                             </Grid>
                             <Grid item xs={12} sm container>
