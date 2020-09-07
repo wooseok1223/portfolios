@@ -79,7 +79,7 @@ export default function SpacingGrid({dataSet, mode}) {
                                             <Avatar alt="Remy Sharp" src={require(`../Img/${value2}_img.png`)}
                                                     className={classes.skillImg}/>
                                             <Typography variant="h6" className={classes.skillFont}>
-                                                {value2.includes('plat') ? value2.replace('plat', '') : value2}
+                                                {value2.includes('plat') ? value2.replace('plat', '#') : value2}
                                             </Typography>
                                         </div>
                                     ))}
