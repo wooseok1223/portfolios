@@ -49,7 +49,7 @@ export default function SimpleCard({moreViewFlag, callbackFunction}) {
                     활동적인
                 </Typography>
                 <Typography variant="body2" component="p">
-                    끊임없이 배우면 최신 트렌드에 뒤처지지 않는
+                    끊임없이 배우면서 최신 트렌드에 뒤처지지 않는
                     <br/>
                     {'"개발자"'} 가 되고 싶습니다.
                 </Typography>
