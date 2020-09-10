@@ -8,13 +8,7 @@ import Footer from '../src/contents/Footer'
 import MainPage from '../src/page/MainPage'
 
 
-const useStyles = makeStyles((theme) => ({
-
-}));
-
-
 export default function App() {
-    const classes = useStyles();
     const [contentsValue, SetContentsValue] = React.useState(0);
 
     const contentsSubmit = (value) => {
@@ -23,8 +17,7 @@ export default function App() {
         if (value === 0) {
             let location = document.querySelector("#header").offsetTop;
             window.scrollTo({top: location, behavior: 'smooth'});
-        }
-        else if (value === 1) {
+        } else if (value === 1) {
             let location = document.querySelector("#about").offsetTop;
             window.scrollTo({top: location - 80, behavior: 'smooth'});
         } else if (value === 2) {
@@ -33,6 +26,8 @@ export default function App() {
         } else if (value === 3) {
             let location = document.querySelector("#project").offsetTop;
             window.scrollTo({top: location - 70, behavior: 'smooth'});
+        } else if (value === 4) {
+            window.open("https://wooseok1223.github.io/myblog-jekyll/");
         }
     }
 
@@ -41,7 +36,7 @@ export default function App() {
             <Header
                 contentsChangeValue={contentsSubmit}
             />
-            <div style={{width:"100%",textAlign: "center"}}>
+            <div style={{width: "100%", textAlign: "center"}}>
                 <MainPage/>
                 <AboutPage/>
                 <SkillPage/>

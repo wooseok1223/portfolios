@@ -42,6 +42,12 @@ export default function GroupSizesColors({contentsValueChange}) {
             >
                 Project
             </Button>
+            <Button
+                style={{color:'#000000'}}
+                onClick={() => {contentsChange(4)}}
+            >
+                Blog
+            </Button>
         </div>
     );
 }
