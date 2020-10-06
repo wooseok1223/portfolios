@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c258daecaadaf7c7aa21f181d711562e",
+    "revision": "abbd3c9e86337baa90e0b3508d664b7a",
     "url": "/portfolios/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolios/static/js/2.58bc44a5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8f2cd866e2b341ac85e",
-    "url": "/portfolios/static/js/main.334b9eff.chunk.js"
+    "revision": "7fdc72162fcd447a7e5d",
+    "url": "/portfolios/static/js/main.1c522f68.chunk.js"
   },
   {
     "revision": "e9b3c15aa237a679749b",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolios/static/media/MongoDB_img.d7cf256f.png"
   },
   {
-    "revision": "3f4a3e7f84d55fb45c9a7b9008dbcceb",
-    "url": "/portfolios/static/media/MyOneMeeting.3f4a3e7f.png"
+    "revision": "b6295fca95c59679bede31af26461aba",
+    "url": "/portfolios/static/media/MyOneMeeting.b6295fca.png"
   },
   {
     "revision": "4e52f273c8e59147a388bc0af489219a",
