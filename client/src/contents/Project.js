@@ -40,7 +40,7 @@ const dataSet = [
         link : 'https://github.com/wooseok1223/MyOwnMeeting',
         title: "MyOwnMetting",
         date: "시작일자 : 2019.06 ~ 진행중",
-        contents: "설명 : 원하는 음식, 취향 별로 모임을 만들 수 있게 해주는 웹 프로그"
+        contents: "설명 : 각종 음원 사이트에서 피아노 곡 순위를 보여줌과 함께 빅데이터를 이용한 피아노곡 추천 웹사이트 개발 프로젝트"
     }
 ]
 
