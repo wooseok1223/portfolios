@@ -27,7 +27,7 @@ export default function App() {
             let location = document.querySelector("#project").offsetTop;
             window.scrollTo({top: location - 70, behavior: 'smooth'});
         } else if (value === 4) {
-            window.open("https://wooseok1223.github.io/myblog-jekyll/");
+            window.open("https://wooseok1223.github.io");
         }
     }
 
