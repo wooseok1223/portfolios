@@ -38,7 +38,7 @@ const dataSet = [
     {
         img:  'LookBook',
         link : 'https://github.com/wooseok1223/spa-with-instagram',
-        title: "instaram",
+        title: "LookBook",
         date: "시작일자 : 2019.08 ~ 진행중",
         contents: "설명 : 리액트, 장고로 만든 SNS Docker 배포 진행중"
     },
