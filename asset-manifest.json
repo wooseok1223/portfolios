@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.js": "/portfolios/static/js/main.b3e20475.chunk.js",
-    "main.js.map": "/portfolios/static/js/main.b3e20475.chunk.js.map",
+    "main.js": "/portfolios/static/js/main.fe58a7ec.chunk.js",
+    "main.js.map": "/portfolios/static/js/main.fe58a7ec.chunk.js.map",
     "runtime-main.js": "/portfolios/static/js/runtime-main.7f5b592e.js",
     "runtime-main.js.map": "/portfolios/static/js/runtime-main.7f5b592e.js.map",
-    "static/js/2.58bc44a5.chunk.js": "/portfolios/static/js/2.58bc44a5.chunk.js",
-    "static/js/2.58bc44a5.chunk.js.map": "/portfolios/static/js/2.58bc44a5.chunk.js.map",
+    "static/js/2.28cd6065.chunk.js": "/portfolios/static/js/2.28cd6065.chunk.js",
+    "static/js/2.28cd6065.chunk.js.map": "/portfolios/static/js/2.28cd6065.chunk.js.map",
     "index.html": "/portfolios/index.html",
-    "precache-manifest.b969db421074e099049e2506e5eadaee.js": "/portfolios/precache-manifest.b969db421074e099049e2506e5eadaee.js",
+    "precache-manifest.df5db8af4f1a735bcbd87420b031fb78.js": "/portfolios/precache-manifest.df5db8af4f1a735bcbd87420b031fb78.js",
     "service-worker.js": "/portfolios/service-worker.js",
-    "static/js/2.58bc44a5.chunk.js.LICENSE.txt": "/portfolios/static/js/2.58bc44a5.chunk.js.LICENSE.txt",
+    "static/js/2.28cd6065.chunk.js.LICENSE.txt": "/portfolios/static/js/2.28cd6065.chunk.js.LICENSE.txt",
     "static/media/C_img.png": "/portfolios/static/media/C_img.06d65eea.png",
     "static/media/Cplat_img.png": "/portfolios/static/media/Cplat_img.e838eb55.png",
     "static/media/Django_img.png": "/portfolios/static/media/Django_img.b6f4407c.png",
     "static/media/Furniture.png": "/portfolios/static/media/Furniture.8f9286af.png",
     "static/media/GraphQL_img.png": "/portfolios/static/media/GraphQL_img.89eb60d9.png",
+    "static/media/LookBook.png": "/portfolios/static/media/LookBook.abc336b6.png",
     "static/media/MongoDB_img.png": "/portfolios/static/media/MongoDB_img.d7cf256f.png",
     "static/media/MyOneMeeting.png": "/portfolios/static/media/MyOneMeeting.b6295fca.png",
     "static/media/Mysql_img.png": "/portfolios/static/media/Mysql_img.4e52f273.png",
@@ -33,7 +34,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7f5b592e.js",
-    "static/js/2.58bc44a5.chunk.js",
-    "static/js/main.b3e20475.chunk.js"
+    "static/js/2.28cd6065.chunk.js",
+    "static/js/main.fe58a7ec.chunk.js"
   ]
 }
