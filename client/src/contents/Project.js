@@ -36,10 +36,17 @@ const dataSet = [
         contents: "설명 : yolo 이미지 디텍터를 활용한 이미지 이진 백터화, 색상 knn 분석 등 을 이용해 학습시킨 가구 추천 웹프로그램"
     },
     {
+        img:  'LookBook',
+        link : 'https://github.com/wooseok1223/spa-with-instagram',
+        title: "instaram",
+        date: "시작일자 : 2019.08 ~ 진행중",
+        contents: "설명 : 리액트, 장고로 만든 SNS Docker 배포 진행중"
+    },
+    {
         img:  'MyOneMeeting',
         link : 'https://github.com/wooseok1223/MyOwnMeeting',
         title: "MyOwnMetting",
-        date: "시작일자 : 2019.06 ~ 진행중",
+        date: "시작일자 : 2019.06 ~ 진행",
         contents: "설명 : 각종 음원 사이트에서 피아노 곡 순위를 보여줌과 함께 빅데이터를 이용한 피아노곡 추천 웹사이트 개발 프로젝트"
     }
 ]
