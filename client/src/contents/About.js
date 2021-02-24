@@ -46,6 +46,12 @@ export default function Album() {
             name: "주요성과 : Wehago 플랫폼 개인조정 모듈 개발",
             date: "시작일자 : 2019.03 ~ 2020.06",
             contents: "설명 : C# 기반의 SmartA프로그램의 180여개의 페이지를 웹 모듈로 개발"
+        },
+         {
+            title: "라이앤캐처스",
+            name: "주요성과 : Identify",
+            date: "시작일자 : 2020.12 ~ 2020.03",
+            contents: "설명 : 딥러닝 모델을 적용하여 장고로 구현한 임플란트 예측 식별 프로그램"
         }
     ]
 
@@ -53,18 +59,18 @@ export default function Album() {
         <div style={{padding: "3px 0px 30px"}}>
             <div style={{padding: "3px 0px 3px"}}>
                 <Typography variant="h5" align="center">
-                    career
+                    Career
                 </Typography>
             </div>
-            <div style={{padding: "3px 0px 30px"}}>
+            <div style={{padding: "30px 0px 30px"}}>
                 <MoreGrid
                     dataSet={dataSet}
                     mode={'Carrer'}
                 />
             </div>
-            <div style={{textAlign: "center", background : "#FEFEEF"}}>
-                <img src={Acitivity} style={{width: "50%"}}/>
-            </div>
+            {/*<div style={{textAlign: "center", background : "#FEFEEF"}}>*/}
+            {/*    <img src={Acitivity} style={{width: "50%"}}/>*/}
+            {/*</div>*/}
         </div>
     )
 

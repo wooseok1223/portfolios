@@ -5,14 +5,14 @@ import MoreGrid from '../function/Grid'
 
 const useStyles = makeStyles((theme) => ({
     titleContent: {
-        padding: theme.spacing(3, 0, 3)
+        padding: theme.spacing(5, 0, 5)
     }
 }));
 
 const dataSet = [
     {
         title: "Hard Skill",
-        name: ['Python','Django','React','JavaScript','Git','Postgresql','Mysql']
+        name: ['Python','Django','React','JavaScript','Git','Postgresql','Mysql','AWS', 'Docker']
     },
     {
         title: "Soft Skill",

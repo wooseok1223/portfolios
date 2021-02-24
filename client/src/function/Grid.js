@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
         width: "300px",
     },
     skillPaper: {
-        height: 400,
+        height: 500,
         width: 200
     },
     control: {
