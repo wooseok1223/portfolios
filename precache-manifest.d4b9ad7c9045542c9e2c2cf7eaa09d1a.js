@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3443d7322ad9d0242bedd8e5995bb2c",
+    "revision": "71c9e1697b326adf52f87425bf5621dc",
     "url": "/portfolios/index.html"
   },
   {
-    "revision": "d970b9624b7a1564dccc",
-    "url": "/portfolios/static/js/2.28cd6065.chunk.js"
+    "revision": "88113eac435294479e5e",
+    "url": "/portfolios/static/js/2.04509800.chunk.js"
   },
   {
-    "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/portfolios/static/js/2.28cd6065.chunk.js.LICENSE.txt"
+    "revision": "9efecc6e366a89e935d3722c67df4853",
+    "url": "/portfolios/static/js/2.04509800.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d3aa4fe0009b0c1c1df",
-    "url": "/portfolios/static/js/main.b78e7790.chunk.js"
+    "revision": "9dfe9df124eee9fdf3ea",
+    "url": "/portfolios/static/js/main.a2f6baa3.chunk.js"
   },
   {
     "revision": "e9b3c15aa237a679749b",
     "url": "/portfolios/static/js/runtime-main.7f5b592e.js"
+  },
+  {
+    "revision": "907bb552a84ad254db6675c6b608f244",
+    "url": "/portfolios/static/media/AWS_img.907bb552.png"
   },
   {
     "revision": "06d65eea6d2dcf7ec6a3afd3d3d20af7",
@@ -30,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b6f4407c6a16aad82b3e480ca95eab54",
     "url": "/portfolios/static/media/Django_img.b6f4407c.png"
+  },
+  {
+    "revision": "2967976a6bf5a2a22fcca2e53e19feac",
+    "url": "/portfolios/static/media/Docker_img.2967976a.png"
   },
   {
     "revision": "8f9286af66869ad4db984c861df11177",
@@ -46,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d7cf256f0c4d70d344a4ee447f2c3dba",
     "url": "/portfolios/static/media/MongoDB_img.d7cf256f.png"
+  },
+  {
+    "revision": "d52f7131c33d69727e3cf1e6d881f340",
+    "url": "/portfolios/static/media/Msa_img.d52f7131.png"
   },
   {
     "revision": "b6295fca95c59679bede31af26461aba",
@@ -88,8 +100,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolios/static/media/corActivity.158f357d.png"
   },
   {
+    "revision": "147f3e14c21a0799c127c4e6c39fb566",
+    "url": "/portfolios/static/media/img.147f3e14.png"
+  },
+  {
     "revision": "971fcec8cc17ad48573cf079d38cde9c",
     "url": "/portfolios/static/media/main.971fcec8.png"
+  },
+  {
+    "revision": "17de8f6f400cc3670bcb124f9377e568",
+    "url": "/portfolios/static/media/private_lesson.17de8f6f.png"
   },
   {
     "revision": "007353a8b6dc9d7fd6c3856799d5c65b",
