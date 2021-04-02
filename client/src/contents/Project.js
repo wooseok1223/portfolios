@@ -42,15 +42,15 @@ const dataSet = [
         img: 'LookBook',
         link: 'https://github.com/wooseok1223/spa-with-instagram',
         title: "LookBook",
-        date: "시작일자 : 2019.08 ~ 진행중",
+        date: "시작일자 : 2019.08 ~ 2020.12",
         contents: "설명 : 리액트, 장고로 만든 SNS Docker 배포 진행중"
     },
     {
-        img: 'MyOneMeeting',
-        link: 'https://github.com/wooseok1223/MyOwnMeeting',
-        title: "MyOwnMetting",
-        date: "시작일자 : 2019.06 ~ 진행",
-        contents: "설명 : 각종 음원 사이트에서 피아노 곡 순위를 보여줌과 함께 빅데이터를 이용한 피아노곡 추천 웹사이트 개발 프로젝트"
+        img: 'private_lesson',
+        link: 'https://github.com/wooseok1223/private_lesson',
+        title: "Private Lesson",
+        date: "시작일자 : 2020.12 ~ 진행",
+        contents: "설명 : 앱 주제 정하는중 CI/CD 구축완료, ELK 구축 완료"
     }
 ]
 
@@ -70,33 +70,33 @@ export default function Album() {
                     dataSet={dataSet
                     }/>
             </div>
-            <div>
-                <div className={classes.titleContent}>
-                    <Typography variant="h5" align="center" id="project">
-                        Project
-                    </Typography>
-                </div>
-                <Card
-                    style={{width: 300}}
-                    cover={
-                        <img
-                            alt="example"
-                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-                        />
-                    }
-                    actions={[
-                        <SettingOutlined key="setting"/>,
-                        <EditOutlined key="edit"/>,
-                        <EllipsisOutlined key="ellipsis"/>,
-                    ]}
-                >
-                    <Meta
-                        avatar={<Avatar src=""/>}
-                        title="Card title"
-                        description="This is the description"
-                    />
-                </Card>
-            </div>
+            {/*<div>*/}
+            {/*    <div className={classes.titleContent}>*/}
+            {/*        <Typography variant="h5" align="center" id="project">*/}
+            {/*            Project*/}
+            {/*        </Typography>*/}
+            {/*    </div>*/}
+            {/*    <Card*/}
+            {/*        style={{width: 300}}*/}
+            {/*        cover={*/}
+            {/*            <img*/}
+            {/*                alt="example"*/}
+            {/*                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"*/}
+            {/*            />*/}
+            {/*        }*/}
+            {/*        actions={[*/}
+            {/*            <SettingOutlined key="setting"/>,*/}
+            {/*            <EditOutlined key="edit"/>,*/}
+            {/*            <EllipsisOutlined key="ellipsis"/>,*/}
+            {/*        ]}*/}
+            {/*    >*/}
+            {/*        <Meta*/}
+            {/*            avatar={<Avatar src=""/>}*/}
+            {/*            title="Card title"*/}
+            {/*            description="This is the description"*/}
+            {/*        />*/}
+            {/*    </Card>*/}
+            {/*</div>*/}
         </main>
     );
 }

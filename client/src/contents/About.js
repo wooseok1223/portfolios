@@ -47,11 +47,17 @@ export default function Album() {
             date: "시작일자 : 2019.03 ~ 2020.06",
             contents: "설명 : C# 기반의 SmartA프로그램의 180여개의 페이지를 웹 모듈로 개발"
         },
-         {
+        {
             title: "라이앤캐처스",
             name: "주요성과 : Identify",
             date: "시작일자 : 2020.12 ~ 2020.03",
             contents: "설명 : 딥러닝 모델을 적용하여 장고로 구현한 임플란트 예측 식별 프로그램"
+        },
+        {
+            title: "라이앤캐처스",
+            name: "주요성과 : 화해 BackOffice 개발",
+            date: "시작일자 : 2021.03 ~ 진행중",
+            contents: "설명 : 화해 커머스 백오피스 개발"
         }
     ]
 
