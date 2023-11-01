@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f14d9cef9de1169143be7504b233448b",
+    "revision": "b40a15bd4499e0c24201935128a0fd8e",
     "url": "/portfolios/index.html"
   },
   {
-    "revision": "0db4bed893133b8c9ebe",
-    "url": "/portfolios/static/js/2.768c90c0.chunk.js"
+    "revision": "dbd509c6f1ed7c0a478e",
+    "url": "/portfolios/static/js/2.241a5f36.chunk.js"
   },
   {
-    "revision": "9efecc6e366a89e935d3722c67df4853",
-    "url": "/portfolios/static/js/2.768c90c0.chunk.js.LICENSE.txt"
+    "revision": "fe5dc93bd093007bff41994267341448",
+    "url": "/portfolios/static/js/2.241a5f36.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd0d1fab172945861eae",
-    "url": "/portfolios/static/js/main.a3a4d25c.chunk.js"
+    "revision": "d1411ba70854f0471d09",
+    "url": "/portfolios/static/js/main.2a22fe12.chunk.js"
   },
   {
-    "revision": "e9b3c15aa237a679749b",
-    "url": "/portfolios/static/js/runtime-main.7f5b592e.js"
+    "revision": "5238b89285c2572eb22e",
+    "url": "/portfolios/static/js/runtime-main.8fa5cb43.js"
   },
   {
     "revision": "907bb552a84ad254db6675c6b608f244",
@@ -84,6 +84,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolios/static/media/Postgresql_img.5ec94eed.png"
   },
   {
+    "revision": "5f6a346ce2d0aa0344b673ce81341361",
+    "url": "/portfolios/static/media/Profile.5f6a346c.jpeg"
+  },
+  {
     "revision": "6dd7bc34be27074a7e889b7dba23247e",
     "url": "/portfolios/static/media/Python_img.6dd7bc34.png"
   },
@@ -118,10 +122,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "17de8f6f400cc3670bcb124f9377e568",
     "url": "/portfolios/static/media/private_lesson.17de8f6f.png"
-  },
-  {
-    "revision": "007353a8b6dc9d7fd6c3856799d5c65b",
-    "url": "/portfolios/static/media/profile.007353a8.JPG"
   },
   {
     "revision": "1c466162162765d3e6e56caf42a0ccb3",
