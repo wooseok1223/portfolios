@@ -70,33 +70,6 @@ export default function Album() {
                     dataSet={dataSet
                     }/>
             </div>
-            {/*<div>*/}
-            {/*    <div className={classes.titleContent}>*/}
-            {/*        <Typography variant="h5" align="center" id="project">*/}
-            {/*            Project*/}
-            {/*        </Typography>*/}
-            {/*    </div>*/}
-            {/*    <Card*/}
-            {/*        style={{width: 300}}*/}
-            {/*        cover={*/}
-            {/*            <img*/}
-            {/*                alt="example"*/}
-            {/*                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"*/}
-            {/*            />*/}
-            {/*        }*/}
-            {/*        actions={[*/}
-            {/*            <SettingOutlined key="setting"/>,*/}
-            {/*            <EditOutlined key="edit"/>,*/}
-            {/*            <EllipsisOutlined key="ellipsis"/>,*/}
-            {/*        ]}*/}
-            {/*    >*/}
-            {/*        <Meta*/}
-            {/*            avatar={<Avatar src=""/>}*/}
-            {/*            title="Card title"*/}
-            {/*            description="This is the description"*/}
-            {/*        />*/}
-            {/*    </Card>*/}
-            {/*</div>*/}
         </main>
     );
 }

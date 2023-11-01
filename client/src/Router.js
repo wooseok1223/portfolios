@@ -1,22 +1,19 @@
 import React from 'react';
-import {Route, Switch, BrowserRouter} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import MainPage from '../src/page/MainPage'
 import SkillPage from '../src/page/SkillPage'
+import AboutPage from '../src/page/AboutPage'
 import ProjectPage from '../src/page/ProjectPage'
-import Header from '../src/contents/Header'
-import Footer from '../src/contents/Footer'
 
 const Router = () => (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <Header/>
+    <>
         <Switch>
             <Route exact path="/" component={MainPage}/>
-            <Route path="/about" component={MainPage}/>
+            <Route path="/about" component={AboutPage}/>
             <Route path='/skill' component={SkillPage}/>
             <Route path='/project' component={ProjectPage}/>
         </Switch>
-        <Footer/>
-    </BrowserRouter>
+    </>
 );
 
 export default Router;

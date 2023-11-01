@@ -11,12 +11,22 @@ import Paper from '@material-ui/core/Paper';
 import Acitivity from '../Img/activity.png'
 
 const useStyles = makeStyles((theme) => ({
-    heroContent: {
-        padding: theme.spacing(3, 0, 3),
+    container: {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        minHeight: '100vh',
+        width: '100vw', // 가로 너비를 화면 전체로 설정
     },
     titleContent: {
         padding: theme.spacing(3, 0, 3),
-    }
+        textAlign: 'center', // 텍스트 가운데 정렬
+    },
+    WhichContent: {
+        padding: theme.spacing(3, 0, 3),
+        textAlign: 'center', // 텍스트 가운데 정렬
+    },
 }));
 
 
@@ -87,7 +97,7 @@ export default function Album() {
     )
 
     return (
-        <div>
+        <div className={classes.container}>
             <CssBaseline/>
             <main>
                 <div className={classes.titleContent}>
@@ -95,7 +105,7 @@ export default function Album() {
                         ABOUT ME
                     </Typography>
                 </div>
-                <div className={classes.heroContent}>
+                <div className={classes.WhichContent}>
                     <Container maxWidth="sm">
                         <div>
                             <ProfileList
