@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.js": "/portfolios/static/js/main.7e7915c6.chunk.js",
-    "main.js.map": "/portfolios/static/js/main.7e7915c6.chunk.js.map",
+    "main.js": "/portfolios/static/js/main.8fca87ca.chunk.js",
+    "main.js.map": "/portfolios/static/js/main.8fca87ca.chunk.js.map",
     "runtime-main.js": "/portfolios/static/js/runtime-main.8fa5cb43.js",
     "runtime-main.js.map": "/portfolios/static/js/runtime-main.8fa5cb43.js.map",
-    "static/js/2.7aab9f52.chunk.js": "/portfolios/static/js/2.7aab9f52.chunk.js",
-    "static/js/2.7aab9f52.chunk.js.map": "/portfolios/static/js/2.7aab9f52.chunk.js.map",
+    "static/js/2.c439bb5f.chunk.js": "/portfolios/static/js/2.c439bb5f.chunk.js",
+    "static/js/2.c439bb5f.chunk.js.map": "/portfolios/static/js/2.c439bb5f.chunk.js.map",
     "index.html": "/portfolios/index.html",
-    "precache-manifest.ff9f1d73901f4d9e0aa94926b4853a60.js": "/portfolios/precache-manifest.ff9f1d73901f4d9e0aa94926b4853a60.js",
+    "precache-manifest.bce17e0626ad0adb62981cf7858b2126.js": "/portfolios/precache-manifest.bce17e0626ad0adb62981cf7858b2126.js",
     "service-worker.js": "/portfolios/service-worker.js",
-    "static/js/2.7aab9f52.chunk.js.LICENSE.txt": "/portfolios/static/js/2.7aab9f52.chunk.js.LICENSE.txt",
+    "static/js/2.c439bb5f.chunk.js.LICENSE.txt": "/portfolios/static/js/2.c439bb5f.chunk.js.LICENSE.txt",
     "static/media/AWS_img.png": "/portfolios/static/media/AWS_img.907bb552.png",
     "static/media/C_img.png": "/portfolios/static/media/C_img.06d65eea.png",
     "static/media/Cplat_img.png": "/portfolios/static/media/Cplat_img.e838eb55.png",
     "static/media/Django_img.png": "/portfolios/static/media/Django_img.b6f4407c.png",
     "static/media/Docker_img.png": "/portfolios/static/media/Docker_img.2967976a.png",
     "static/media/Flask_img.png": "/portfolios/static/media/Flask_img.d06e73bb.png",
+    "static/media/Flink_img.png": "/portfolios/static/media/Flink_img.d28bf609.png",
     "static/media/Furniture.png": "/portfolios/static/media/Furniture.8f9286af.png",
     "static/media/GraphQL_img.png": "/portfolios/static/media/GraphQL_img.89eb60d9.png",
     "static/media/LookBook.png": "/portfolios/static/media/LookBook.abc336b6.png",
@@ -31,17 +32,22 @@
     "static/media/React_img.png": "/portfolios/static/media/React_img.d5936d7b.png",
     "static/media/SmartPlanner.png": "/portfolios/static/media/SmartPlanner.9308ef56.png",
     "static/media/activity.png": "/portfolios/static/media/activity.91715f7c.png",
+    "static/media/airflow_img.png": "/portfolios/static/media/airflow_img.307815a2.png",
     "static/media/corActivity.png": "/portfolios/static/media/corActivity.158f357d.png",
+    "static/media/hive_img.png": "/portfolios/static/media/hive_img.9ddefdc1.png",
     "static/media/img.png": "/portfolios/static/media/img.147f3e14.png",
+    "static/media/java_img.png": "/portfolios/static/media/java_img.77c17e56.png",
+    "static/media/kafka_img.png": "/portfolios/static/media/kafka_img.cbef0d68.png",
     "static/media/main.png": "/portfolios/static/media/main.971fcec8.png",
     "static/media/mingle.png": "/portfolios/static/media/mingle.620ea7d9.png",
+    "static/media/presto_img.png": "/portfolios/static/media/presto_img.54ffce3f.png",
     "static/media/private_lesson.png": "/portfolios/static/media/private_lesson.17de8f6f.png",
     "static/media/recActivity.png": "/portfolios/static/media/recActivity.1c466162.png",
     "static/media/test.jpeg": "/portfolios/static/media/test.208f4b6a.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.8fa5cb43.js",
-    "static/js/2.7aab9f52.chunk.js",
-    "static/js/main.7e7915c6.chunk.js"
+    "static/js/2.c439bb5f.chunk.js",
+    "static/js/main.8fca87ca.chunk.js"
   ]
 }
