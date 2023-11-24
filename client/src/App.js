@@ -13,15 +13,14 @@ const useStyles = makeStyles((theme) => ({
         height: '100vh',
     },
     header: {
-        flex: '20%', // 헤더 영역 높이 20%
-        backgroundColor: 'lightgray',
+        flex: '8%' // 헤더 영역 높이 20%
     },
     content: {
-        flex: '70%', // 컨텐츠 영역 높이 70%
+        flex: '87%', // 컨텐츠 영역 높이 70%
         backgroundColor: 'white',
     },
     footer: {
-        flex: '10%', // 푸터 영역 높이 10%
+        flex: '5%', // 푸터 영역 높이 10%
         backgroundColor: 'lightgray',
     },
 }));
