@@ -40,23 +40,26 @@ export default function ResponsiveAppBar(props) {
                     </Typography>
                         <Button>
                             <Link to='/'>
-                                <p className='link' style={{color: '#000000'}}>home</p>
+                                <p className='link' style={{color: '#000000'}}>Home</p>
                             </Link>
                         </Button>
                         <Button>
                             <Link to='/about'>
-                                <p className='link' style={{color: '#000000'}}>about</p>
+                                <p className='link' style={{color: '#000000'}}>About</p>
                             </Link>
                         </Button>
                         <Button>
                             <Link to='/skill'>
-                                <p className='link' style={{color: '#000000'}}>skill</p>
+                                <p className='link' style={{color: '#000000'}}>Skill</p>
                             </Link>
                         </Button>
                         <Button href="#text-buttons">
-                            <Link to='/project'>
-                                <p className='link' style={{color: '#000000'}}>project</p>
-                            </Link>
+                            <a href='https://sws1223.tistory.com/'>
+                                <p className='link' style={{color: '#000000'}}>Blog</p>
+                            </a>
+                            {/*<Link to='https://sws1223.tistory.com/'>*/}
+                            {/*    <p className='link' style={{color: '#000000'}}>Blog</p>*/}
+                            {/*</Link>*/}
                         </Button>
                 </Toolbar>
             </AppBar>

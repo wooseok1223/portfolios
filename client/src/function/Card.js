@@ -46,12 +46,10 @@ export default function SimpleCard({moreViewFlag, callbackFunction}) {
                     서우석
                 </Typography>
                 <Typography className={classes.pos} color="textSecondary">
-                    활동적인
+                    경험은 모든 기술의 가장 좋은 스승이다.
                 </Typography>
                 <Typography variant="body2" component="p">
-                    끊임없이 배우면서 최신 트렌드에 뒤처지지 않는
-                    <br/>
-                    {'"개발자"'} 가 되고 싶습니다.
+                    아는만큼 보인다는 말이 있습니다. 처음 접하는 일은 어떤 사람이든 당연히 어렵다고 느낄것입니다. 개발이라는 분야는 당연히 업무를 하면서 막히는 부분이 많습니다. 이를 위해 공부를 하고, 적용하고, 수정하는 과정을 통해서 사람은 성숙해 집니다. 저는 이렇게 막히는 부분을 해결하고 새로운 지식을 탐구하는일에 흥미를 느끼고 있습니다.
                 </Typography>
             </CardContent>
             <CardActions>
